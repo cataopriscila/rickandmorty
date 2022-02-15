@@ -1,6 +1,6 @@
 # Welcome to Favorite Characters in the Rick and Morty Universe!
 
-This is a playground project developed with React, GraphQL and Apollo Client.
+This is a playground project developed with React, Typescript, GraphQL and Apollo Client.
 Have fun!
 
 ## Available Scripts
