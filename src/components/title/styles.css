@@ -1,0 +1,29 @@
+.title-main {
+    position: absolute;
+    width: 651px;
+    height: 64px;
+    left: 69px;
+    top: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    color: #ffffff;
+  }
+  
+  .title-subtext {
+    position: absolute;
+    width: 586px;
+    height: 30px;
+    left: 69px;
+    top: 167px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+  
+    color: #97ce4c;
+  }
+  

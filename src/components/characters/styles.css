@@ -1,0 +1,96 @@
+.container {
+    position: absolute;
+    width: 834px;
+    height: 814px;
+    left: 0px;
+    top: 641px;
+    overflow-y: scroll;
+  }
+  
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .container-characters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 48px;
+    position: absolute;
+    width: 605px;
+    height: 1639px;
+    left: 69px;
+    top: 50px;
+  }
+  
+  .character-box {
+    position: relative;
+    width: 605px;
+    height: 143px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 38px 0px;
+  }
+  
+  .image-box {
+    position: absolute;
+    width: 143px;
+    height: 143px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .image {
+    position: absolute;
+    width: 128.7px;
+    height: 128.7px;
+    left: 7.44px;
+    top: 7.44px;
+    border-radius: 250px;
+    border: 7px solid transparent;
+  }
+  
+  .character-box h2,
+  h2.error-styled {
+    position: absolute;
+    width: 413px;
+    height: 49px;
+    left: 192px;
+    top: 27px;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #ffffff;
+  }
+  
+  .character-box p {
+    position: absolute;
+    width: 302px;
+    height: 28px;
+    left: 192px;
+    top: 88px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #bababa;
+  }
+
+  p.error-styled {
+    position: absolute;
+    width: 413px;
+    height: 49px;
+    left: 192px;
+    top: 27px;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #bababa;
+  
+  }
+  

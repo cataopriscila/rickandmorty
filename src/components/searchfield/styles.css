@@ -1,0 +1,59 @@
+input,
+select {
+  border: none;
+  background: #464979;
+  border-radius: 50px;
+  padding-left: 46px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff6b;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;  
+}
+
+select option {
+ 
+  color: #ffffff;
+}
+
+img {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  left: 669px;
+  top: 395px;
+  pointer-events: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #ffffff6b;
+}
+
+.search-input {
+  position: absolute;
+  width: 687px;
+  height: 90.65px;
+  left: 69px;
+  top: 256.35px;
+}
+
+.dropdown {
+  position: absolute;
+  width: 687px;
+  height: 90.65px;
+  left: 69px;
+  top: 376.35px;
+}

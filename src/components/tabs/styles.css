@@ -1,0 +1,42 @@
+.tabTitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.listTab {
+  position: absolute;
+  width: 60px;
+  height: 42px;
+  left: 175px;
+  top: 555px;
+}
+
+.listTabDivisor {
+  position: absolute;
+  width: 394px;
+  height: 2px;
+  left: 0px;
+  top: 619px;
+  border: 1px solid #97ce4c;
+}
+
+.favoriteTab {
+  position: absolute;
+  width: 150px;
+  height: 42px;
+  left: 549px;
+  top: 555px;
+}
+
+.favoriteTabDivisor {
+  position: relative;
+  width: 421px;
+  height: 2px;
+  left: 413px;
+  top: 619px;
+  border: 1px solid #97ce4c;
+}
