@@ -31,10 +31,7 @@ const Dropdown = (props: {
     <>
       <select
         className="dropdown"
-        onChange={(e) => {
-          props.onLocationSelected(e.target.value);
-          console.log(e.target.value);
-        }}
+        onChange={(e) => props.onLocationSelected(e.target.value)}
       >
         <optgroup label="Choose a Location">
           <option label="All Locations" />

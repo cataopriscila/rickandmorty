@@ -29,9 +29,7 @@ function CharacterFavorites(props: Props): JSX.Element {
   const { loading, error, data } = useQuery<CharacterData>(GET_FAVORITES, {
     variables: { ids: props.characterClicked },
   });
-
-  console.log(props.characterClicked);
-
+ 
   if (loading) return <Loader />;
   if (error) return <p className="error-styled">No favorites selected</p>;
 

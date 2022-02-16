@@ -24,17 +24,13 @@ export default function App() {
   };
 
   const moveCharacter = (character: string) => {
-
-    if(isActive === "fav"){
-  
-  setCharacterClicked((s) => s.filter((v,i,arr) => !(v === arr.find(el=> el === character)))); 
-  console.log(isActive);
-  console.log(characterClicked);
-
+    if (isActive === "fav") {
+      setCharacterClicked((s) =>
+        s.filter((v, i, arr) => !(v === arr.find((el) => el === character)))
+      );
     } else {
-     setCharacterClicked((s) => s.concat(character)); 
+      setCharacterClicked((s) => s.concat(character));
     }
-    
   };
 
   const onLocationSelected = (location: string) => {
